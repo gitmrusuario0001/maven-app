@@ -29,7 +29,9 @@ public class FacturaRestController {
 	@Secured({"ROLE_ADMIN","ROLE_USER"})
 	@GetMapping("/facturas/{id}")
 	@ResponseStatus(code=HttpStatus.OK)
+	
 	public Factura show(@PathVariable long id) {
+		//comentario
 		return clienteService.findFacturabyId(id);
 		
 	}
