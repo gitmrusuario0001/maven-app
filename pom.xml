@@ -19,6 +19,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<project.scm.id>github</project.scm.id>
 	</properties>
 
 	<dependencies>
@@ -84,7 +85,10 @@
 	      <optional>true</optional>
 	    </dependency>
 	</dependencies>
-
+	<scm>
+		<developerConnection>scm:git:https://github.com/gitmrusuario0001/maven-app.git</developerConnection>
+		<url>https://github.com/gitmrusuario0001/maven-app</url>
+	</scm>
 	<build>
 		<plugins>
 			<plugin>
@@ -99,7 +103,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>3.0.0-M1</version>
+				<version>2.5.3</version>
+				<configuration>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
+				</configuration>
 			  </plugin>
 		</plugins>
 	</build>
