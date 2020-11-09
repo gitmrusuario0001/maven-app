@@ -103,7 +103,7 @@
 		<id>github</id>
 		<uniqueVersion>false</uniqueVersion>
 		<name>GitHub Project Pages</name>
-		<url>gitsite:git@github.com/gitmrusuario0001/maven-app.git</url>
+		<url>git:git@github.com:https://github.com/gitmrusuario0001/maven-app.git</url>
 		<layout>default</layout>
 	</repository>
 </distributionManagement>
