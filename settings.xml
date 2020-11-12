@@ -6,7 +6,7 @@
     <server>
       <id>github</id>
       <username>gitmrusuario0001</username>
-      <password>${{ secrets.KS_MAVEN}}</password>
+      <password>${{ secrets.KS_MAVEN }}</password>
     </server>
   </servers>
 
