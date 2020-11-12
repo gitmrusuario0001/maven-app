@@ -33,6 +33,6 @@ jobs:
       - name: Publish JAR
         run: |
           pwd
-          ./mvnw -B release:prepare release:perform
+          ./mvnw -B release:prepare release:perform -DcheckModificationExcludeList=pom.xml,.maven/spy.log
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
