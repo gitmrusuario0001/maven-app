@@ -124,6 +124,7 @@
 				<configuration>
 					<checkModificationExcludes>
 					  <checkModificationExclude>./mvnw</checkModificationExclude>
+					  <checkModificationExclude>mvnw</checkModificationExclude>
 					  <checkModificationExclude>./mvnw/**</checkModificationExclude>
 					</checkModificationExcludes>
 				  </configuration>
