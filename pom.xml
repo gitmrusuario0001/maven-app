@@ -9,7 +9,7 @@
 	</parent> -->
 	<groupId>com.bolsadeideas.springboot.backend.apirest</groupId>
 	<artifactId>spring-boot-backend-apirest</artifactId>
-	<version>0.0.16</version>
+	<version>0.0.17-SNAPSHOT</version>
 	
 	<packaging>war</packaging>
 	<name>spring-boot-backend-apirest</name>
@@ -99,7 +99,7 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/gitmrusuario0001/maven-app.git</developerConnection>
 		<url>https://github.com/gitmrusuario0001/maven-app</url>
-		<tag>spring-boot-backend-apirest-0.0.16</tag>
+		<tag>spring-boot-backend-apirest-0.0.1</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
