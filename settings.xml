@@ -5,8 +5,13 @@
   <servers>
     <server>
       <id>github</id>
-      <username>gitmrusuario0001</username>
+      <username>${GITHUB_ACTOR}</username>
       <password>${{ secrets.KS_MAVEN }}</password>
+    </server>
+    <server>
+      <id>maven-tomcat-war-deployment-server</id>
+      <username>tomcat</username>
+      <password>tomcat</password>
     </server>
   </servers>
 
