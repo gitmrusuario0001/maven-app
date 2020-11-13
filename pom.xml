@@ -11,7 +11,7 @@
 	<artifactId>spring-boot-backend-apirest</artifactId>
 	<version>0.0.16-SNAPSHOT</version>
 	
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>spring-boot-backend-apirest</name>
 	<description>Demo project for Spring Boot</description>
 
